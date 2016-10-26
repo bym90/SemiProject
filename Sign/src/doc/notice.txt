@@ -1,0 +1,13 @@
+기본 숙지사항
+
+외부 오라클 접속 방법
+host : 내부IP : 192.168.0.12 / 외부 IP : 112.216.253.122
+ID : scott
+PW : tiger
+
+
+네이버 SVN 정보
+Location : https://dev.naver.com/svn/seiko
+
+
+

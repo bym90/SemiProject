@@ -1,0 +1,123 @@
+기본 숙지사항
+
+외부 오라클 접속 방법
+host : 내부IP : 192.168.56.177 / 외부 IP : 106.243.249.72(접속여부 확인X)
+ID : scott
+PW : tiger
+
+
+네이버 SVN 정보
+Location : https://dev.naver.com/svn/seiko
+
+  패키지.클래스
+javautil.CJFrame	-> Swing 기본 틀
+javautil.CFrame		-> AWT 기본 툴
+javautil.EPanel		-> Panel [Dimension 오버라이드 함수] 
+	사용방법 : JLabel p1 = new EPanel(w,h);
+
+javautil.MyJDBC		-> JDBC conn, pstmt, rs 연결모음 함수
+
+javautil.JUtil		-> 개발 중 유용한 함수모음
+ 
+ 
+
+회원가입 폼
+	양식 - 사원번호,비밀번호,이름,성별,생년월일,연락처,이메일,부서,직급,가입
+	유효성 체크 - 사원번호, 비밀번호,이름,성별,생년월일,연락처,이메일,부서,직급
+		사원번호 :null 체크,사원번호 형식 체크
+		비밀번호 : null 체크
+		이름 : null  체크
+		성별 : null 체크
+		생년월일 : null체크
+		연락처 : null 체크 연락처형식
+		이메일 : null 체크이메일형식
+		부서 : null 체크
+		직급 : null 체크
+	회원가입 시 환영 이메일 보내기 - 회원가입 때 사용한 이메일로 메일 보내기
+	
+	
+프로젝트 서류 관리
+	-doc/...	
+	
+프로젝트 유틸 관리
+	-javautil/...
+	-javautil/encryp/..
+	
+프로젝트 이미지 관리
+	-images/client
+	-images/client/chatting/
+	-images/client/tray
+	
+	-images/server/
+	-images/server/??
+	
+프로젝트 공지사항 패키지
+	-SignClient/Notice/...
+	
+프로젝트 트레이 패키지
+	-SignClient/Tray/....
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

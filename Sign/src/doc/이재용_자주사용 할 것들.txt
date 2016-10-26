@@ -1,0 +1,107 @@
+by 이재용
+Dimension frameSize = this.getSize();
+Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+	
+this.setLocation((screenSize.width - frameSize.width)/2, (screenSize.height - frameSize.height)/2);
+===========================================================
+Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+frame.setLocation((dim.width/2)-(frame.getWidth()/2), (dim.height/2)-(frame.getHeight()/2));
+===========================================================
+frame.setLocationRelativeTo(null);
+
+===========================================================
+ Toolkit tk = Toolkit.getDefaultToolkit(); // 구현된 Toolkit객체를 얻는다. 
+    Dimension screenSize = tk.getScreenSize();// 화면의 크기를 구한다. 
+     
+	int x_l, y_l; 
+    // x좌표구하기 
+	x_l = screenSize.width / 2 - this.getWidth() / 2;  
+	// y좌표구하기 
+	y_l = screenSize.height / 2 - this.getHeight() / 2;  
+	setLocation(x_l, y_l); //구한 좌표로 위치 지정
+
+
+
+//아이콘 등록
+Toolkit toolkit = Toolkit.getDefaultToolkit();
+Image icon = toolkit.getImage("src/images/client/sign/Img_PassFind.png");
+f.setIconImage(img);
+
+
+
+//마우스 리스너
+class MouseEvent01 extends MouseAdapter implements MouseListener {
+	@Override
+	public void mouseClicked(MouseEvent e) {
+		if(idF.getText().equals("사원번호를 입력해주세요")){
+		idF.setText("");
+		}
+	}
+	@Override
+	public void mouseExited(MouseEvent e) {
+		if(idF.getText().equals("")){
+			idF.setText("사원번호를 입력해주세요");
+		}
+	}
+}
+
+
+//액션 리스너
+class ButtonEvent implements ActionListener{
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		JButton target = (JButton) e.getSource();
+		if(target == btn1){//로그인
+			
+		}else if(target == signB){//사원등록
+			new SignUpClient();
+		}else if(target == findB){//비밀번호찾기
+			new SignIdFind();
+		}else{
+			
+		}
+		
+	}
+}
+
+
+//창 고정
+setUndecorated
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
